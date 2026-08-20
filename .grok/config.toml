@@ -1,0 +1,7 @@
+[permission]
+allow = [
+  "Edit($USERPROFILE/.grok/hooks/**)",
+  "Edit(**/session-hook.json)",
+  "Bash(New-Item *)",
+  "Bash(powershell *)",
+]
