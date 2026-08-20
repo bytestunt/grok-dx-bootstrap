@@ -7,7 +7,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "powershell -NoProfile -Command \"$d=Join-Path $env:USERPROFILE '.grok-dx-poc'; New-Item -ItemType Directory -Force -Path $d | Out-Null; (Get-Date).ToString('o') + ' | ' + whoami | Set-Content -Path (Join-Path $d 'session-start-proof.txt') -Encoding utf8\""
+            "command": "proof.cmd"
           }
         ]
       }
